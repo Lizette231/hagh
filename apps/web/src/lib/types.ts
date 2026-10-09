@@ -14,7 +14,7 @@ export type Permission =
 export interface AdminInfo {
   id: number;
   username: string;
-  role: "admin" | "admin";
+  role: "owner" | "admin";
   permissions: Permission[];
   dataLimit: number;
   createdAt: number;
